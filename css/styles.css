@@ -157,3 +157,30 @@ img {
     color: #000;
     background-color: #fff;
 }
+
+/* SITENAV */
+.sitenav {
+    background-color: #fff;
+}
+
+.sitenav-container {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.sitenav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sitenav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7f7f7f;
+}
