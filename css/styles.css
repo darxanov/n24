@@ -292,3 +292,49 @@ img {
     line-height: 14px;
     color: #5e5f61;
 }
+
+/* AD */
+.ad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 75px;
+    padding: 24px 70px 24px 30px;
+    background-image: url("../img/ad-banner.jpg");
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.ad-title {
+    margin: 0;
+    width: 400px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+}
+
+.ad-link {
+    width: 149px;
+    padding: 13px 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    background-color: #F78B3B;
+}
+
+.ad-link:focus {
+    outline-color: #F78B3B;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    .ad {
+        background-image: url("../img/ad-banner@2x.jpg");
+    }
+}
