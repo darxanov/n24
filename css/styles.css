@@ -63,6 +63,10 @@ img {
 
 
 /* SITE-HEADER */
+.site-header {
+    margin-bottom: 50px;
+}
+
 .site-header-top {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -201,7 +205,6 @@ img {
 .site-header-banner-img {
     width: 1200px;
     height: 128px;
-    margin-bottom: 50px;
     border-radius: 8px;
 }
 
