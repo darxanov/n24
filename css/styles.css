@@ -184,3 +184,11 @@ img {
     line-height: 21px;
     color: #7f7f7f;
 }
+
+.sitenav-link:hover {
+    opacity: 0.8;
+}
+
+.sitenav-link:active {
+    opacity: 0.6;
+}
