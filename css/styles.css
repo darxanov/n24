@@ -161,6 +161,8 @@ img {
 /* SITENAV */
 .sitenav {
     background-color: #fff;
+    margin: 0;
+    margin-bottom: 40px;
     padding-bottom: 20px;
     padding-top: 30px;
     border-bottom: 2px solid #d2d2d2;
@@ -189,4 +191,15 @@ img {
 
 .sitenav-link:active {
     opacity: 0.6;
+}
+
+.site-header-banner-link {
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.site-header-banner-img {
+    width: 1200px;
+    height: 128px;
+    border-radius: 8px;
 }
