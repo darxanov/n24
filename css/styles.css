@@ -27,6 +27,13 @@ img {
 }
 
 
+/* OUTLINE-STYLES */
+*:focus {
+    outline: 2px dashed #7296ec;
+    outline-offset: 3px;
+}
+
+
 /* BUTTON */
 .button {
     display: inline-block;
@@ -118,7 +125,22 @@ img {
 .currency-rates-type {
     color: #2959ce;
 }
-.currency-rates-value {
+
+/* .currency-rates-value {
+} */
+
+
+/* GLOBAL-SEARCH-FORM */
+.global-search-form {
+    margin-right: 25px;
+}
+
+.global-search-form-input {
+    padding: 15px 20px 13px 40px;
+    border: none;
+    border-radius: 60px;
+    font-size: 14px;
+    line-height: normal;
 }
 
 
